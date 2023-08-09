@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFTsee</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/image/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body class="bg_color">
+    <section class="bg_white py_14">
+        <div class="d-flex justify-content-center">
+            <div class="container ff_poppins ">
+                <nav>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex justify-content-between">
+                            <input type="checkbox" id="mobileview" hidden>
+                            <label for="mobileview" class="d-lg-none">
+                        <img class="icon" src="./assets/image/icon.png" alt="icon"></label>
+                            <div class="d-flex align-items-center gap_10">
+                                <img class="logo" src="./assets/image/logo.png" alt="logo">
+                                <p class="fs_xl  ps-sm-3 pe-sm-3 fw-bold">NFTsee</p>
+                            </div>
+                            <ul class="d-flex align-items-center my_nav gap_31 ps-3 text_">
+                                <li>
+                                    <a href="#" class="fw-normal fs-sm">Feed</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fs-sm fw-normal ">Wallet</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <input class="input mr_15 d-none d-md-block" type="text" placeholder="Search here...">
+                            <img class="mr_15 d-md-none" src="./assets/image/search.png" alt=" img">
+                            <label class="switch ">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                              </label>
+                            <img class="ml_15 logo" src="./assets/image/nav_img.png" alt="img">
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <section class="d-block d-lg-none py_40">
+        <div class="d-flex justify-content-center">
+            <div class="container ff_poppins">
+                <div class="row">
+                    <p class="pb_7 fs_sm fw-normal text_dark_gray">Filters</p>
+                    <div class="d-flex gap_10">
+                        <button class="button2 fs_md fw-normal">Most Liked</button>
+                        <button class="button3 fs_md fw-normal">Recently Received</button>
+                    </div>
+                    <p class="py_14 fs_md fw-normal text_dark_gray">Suggestions for you</p>
+                    <div class="d-flex align-items-center responsive1 px_12">
+                        <div class="text-center ">
+                            <div class="card2 d-flex flex-column align-items-center">
+                                <div>
+                                    <img class="mx_auto py-2" src="./assets/image/sec_1_ellipse_10.png" alt="img">
+                                </div>
+                                <p class="pb_7 fs_md fw-normal text_dark_gray">Jhone doe</p>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="fs_md fw-normal">Follow</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="card2">
+                                <div>
+                                    <img class="mx_auto py-2" src="./assets/image/sec_1_ellipse_1.png" alt="img">
+                                </div>
+                                <p class="pb_7 fs_md fw-normal text_dark_gray">Jhone doe</p>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="fs_md fw-normal">Follow</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="card2">
+                                <div>
+                                    <img class="mx_auto py-2" src="./assets/image/sec_1_ellipse_2.png" alt="img">
+                                </div>
+                                <p class="pb_7 fs_md fw-normal text_dark_gray">Jhone doe</p>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="fs_md fw-normal">Follow</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="card2">
+                                <div>
+                                    <img class="mx_auto py-2" src="./assets/image/sec_1_ellipse_3.png" alt="img">
+                                </div>
+                                <p class="pb_7 fs_md fw-normal text_dark_gray">Jhone doe</p>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="fs_md fw-normal">Follow</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <div class="card2">
+                                <div>
+                                    <img class="mx_auto py-2" src="./assets/image/sec_1_ellipse_4.png" alt="img">
+                                </div>
+                                <p class="pb_7 fs_md fw-normal text_dark_gray">Jhone doe</p>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="fs_md fw-normal">Follow</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="card2">
+                                <div>
+                                    <img class="mx_auto py-2" src="./assets/image/sec_1_ellipse_5.png" alt="img">
+                                </div>
+                                <p class="pb_7 fs_md fw-normal text_dark_gray">Jhone doe</p>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="fs_md fw-normal">Follow</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="d-flex justify-content-center py_40">
+            <div class="container ff_poppins">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-8 col-12">
+                        <div class="card1">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center">
+                                    <img src="./assets/image/sec_1_ellipse.png" alt="im">
+                                    <p class="pl_17 fs_md text_dark_gray fw-normal">Jhone doe</p>
+                                </div>
+                                <div><img src="./assets/image/three_dots.png" alt=""></div>
+                            </div>
+                            <div><img class="w-100 pt_25" src="./assets/image/sec_1_img.png" alt=""></div>
+
+                            <div class="d-flex align-items-center gap_30 pt_25">
+                                <div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                            stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14 19C17.771 19 19.657 19 20.828 17.828C22 16.657 22 14.771 22 11C22 7.229 22 5.343 20.828 4.172C19.657 3 17.771 3 14 3H10C6.229 3 4.343 3 3.172 4.172C2 5.343 2 7.229 2 11C2 14.771 2 16.657 3.172 17.828C3.825 18.482 4.7 18.771 6 18.898"
+                                            stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M14.0002 19C12.7642 19 11.4022 19.5 10.1592 20.145C8.16124 21.182 7.16224 21.701 6.67024 21.37C6.17824 21.04 6.27124 20.015 6.45824 17.966L6.50024 17.5"
+                                            stroke="black" stroke-width="2" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pe-3 input1 py-2 ps-3 mt_30">
+                                <input class="input2 fs_md" type="text" placeholder="Add a comment...">
+                                <a href="#" class="fs_md fw-normal">Post</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 d-none d-lg-block">
+                        <p class="fs_md fw-normal text_dark_gray">Filters</p>
+                        <input class="" type="radio" id="Most Liked" name="fav_language" value="Most Liked">
+                        <label class=" pt_14 fs_md text_dark_gray fw-normal" for="Most Liked">Most Liked</label><br>
+                        <input class="" type="radio" id="Most Liked" name="fav_language" value="Most Liked">
+                        <label class=" pt_14 fs_md fw-normal text_dark_gray" for="Most Liked">Recently Received</label><br>
+                        <p class="pt_14 fs_md fw-normal text_dark_gray">Suggestions for you</p>
+                        <div>
+                            <div class="d-flex justify-content-between align-items-center pt_14">
+                                <div class="d-flex align-items-center">
+                                    <div><img src="./assets/image/sec_1_ellipse_10.png" alt="img"></div>
+                                    <p class="pl_17 fw-normal fs_md">Jhone doe</p>
+                                </div>
+                                <ul>
+                                    <li><a href="#" class="fs_md fw-normal">Follow</a></li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center  pt_14">
+                                <div class="d-flex align-items-center">
+                                    <div><img src="./assets/image/sec_1_ellipse_1.png" alt="img"></div>
+                                    <p class="pl_17 fs_md fw-normal">Jhone doe</p>
+                                </div>
+                                <ul>
+                                    <li><a href="#" class="fs_md fw-normal">Follow</a></li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pt_14 ">
+                                <div class="d-flex align-items-center">
+                                    <div><img src="./assets/image/sec_1_ellipse_2.png" alt="img"></div>
+                                    <p class="pl_17 fs_md fw-normal">Jhone doe</p>
+                                </div>
+                                <ul>
+                                    <li><a href="#" class="fs_md fw-normal">Follow</a></li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pt_14">
+                                <div class="d-flex align-items-center">
+                                    <div><img src="./assets/image/sec_1_ellipse_3.png" alt="img"></div>
+                                    <p class="pl_17 fs_md fw-normal">Jhone doe</p>
+                                </div>
+                                <ul>
+                                    <li><a href="#" class="fs_md fw-normal">Follow</a></li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pt_14 ">
+                                <div class="d-flex align-items-center">
+                                    <div><img src="./assets/image/sec_1_ellipse_4.png" alt="img"></div>
+                                    <p class="pl_17 fs_md fw-normal">Jhone doe</p>
+                                </div>
+                                <ul>
+                                    <li><a href="#" class="fs_md fw-normal">Follow</a></li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pt_14 pb_14 ">
+                                <div class="d-flex align-items-center">
+                                    <div><img src="./assets/image//sec_1_ellipse_5.png" alt="img"></div>
+                                    <p class="pl_17 fs_md fw-normal">Jhone doe</p>
+                                </div>
+                                <ul>
+                                    <li><a href="#" class="fs_md fw-normal">Follow</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="pt_25 fs_md fw-normal text_dark_gray">Copyright@2023</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section>
+        <div class="d-flex justify-content-center py_40">
+            <div class="container ff_poppins">
+                <div class="row justify-content-md-center justify-content-lg-start">
+                    <div class="col-md-8 col-12">
+                        <div class="card1">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center">
+                                    <img src="./assets/image/sec_2_ellipse.png" alt="im">
+                                    <p class="pl_17 fs_md fw-normal">Jhone doe</p>
+                                </div>
+                                <div><img src="./assets/image/three_dots.png" alt=""></div>
+                            </div>
+                            <div class=" pt_14">
+                                <div class="img_card">
+                                    <div><img class="w_80" src="./assets/image/sec_2_img.png" alt="img"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center gap_30 pt_25">
+                                <div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                            stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14 19C17.771 19 19.657 19 20.828 17.828C22 16.657 22 14.771 22 11C22 7.229 22 5.343 20.828 4.172C19.657 3 17.771 3 14 3H10C6.229 3 4.343 3 3.172 4.172C2 5.343 2 7.229 2 11C2 14.771 2 16.657 3.172 17.828C3.825 18.482 4.7 18.771 6 18.898"
+                                            stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M14.0002 19C12.7642 19 11.4022 19.5 10.1592 20.145C8.16124 21.182 7.16224 21.701 6.67024 21.37C6.17824 21.04 6.27124 20.015 6.45824 17.966L6.50024 17.5"
+                                            stroke="black" stroke-width="2" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pe-3 input1 py-2 ps-3 mt_30">
+                                <input class="input2 fs_md " type="text" placeholder="Add a comment...">
+                                <a href="#" class="fs_sm fw-normal">Post</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section>
+        <div class="d-flex justify-content-center py_40">
+            <div class="container ff_poppins">
+                <div class="row justify-content-md-center justify-content-lg-start">
+                    <div class="col-md-8 col-12">
+                        <div class="card1">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center">
+                                    <img src="./assets/image/sec_3_ellpise.png" alt="im">
+                                    <p class="pl_17 fs_md fw-normal">Jhone doe</p>
+                                </div>
+                                <div><img src="./assets/image/three_dots.png" alt=""></div>
+                            </div>
+                            <div><img class="w-100 pt_25" src="./assets/image/sec_3_img.png" alt=""></div>
+
+                            <div class="d-flex align-items-center gap_30 pt_25">
+                                <div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                            stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14 19C17.771 19 19.657 19 20.828 17.828C22 16.657 22 14.771 22 11C22 7.229 22 5.343 20.828 4.172C19.657 3 17.771 3 14 3H10C6.229 3 4.343 3 3.172 4.172C2 5.343 2 7.229 2 11C2 14.771 2 16.657 3.172 17.828C3.825 18.482 4.7 18.771 6 18.898"
+                                            stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M14.0002 19C12.7642 19 11.4022 19.5 10.1592 20.145C8.16124 21.182 7.16224 21.701 6.67024 21.37C6.17824 21.04 6.27124 20.015 6.45824 17.966L6.50024 17.5"
+                                            stroke="black" stroke-width="2" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pe-3 input1 py-2 ps-3 mt_30">
+                                <input class="input2 fw-normal fs_md" type="text" placeholder="Add a comment...">
+                                <a href="#" class="fs_md fw-normal">Post</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section>
+        <div class="d-flex justify-content-center py_40">
+            <div class="container ff_poppins">
+                <div class="row justify-content-md-center justify-content-lg-start">
+                    <div class="col-md-8 col-12">
+                        <div class="card1">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center">
+                                    <img src="./assets/image/sec_2_ellipse.png" alt="im">
+                                    <p class="pl_17 fs_md fw-normal">Jhone doe</p>
+                                </div>
+                                <div><img src="./assets/image/three_dots.png" alt=""></div>
+                            </div>
+                            <div class=" pt_14">
+                                <div class="img_card">
+                                    <div><img class="w_80" src="./assets/image/sec_4_img.png" alt="img"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center gap_30 pt_25">
+                                <div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                            stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14 19C17.771 19 19.657 19 20.828 17.828C22 16.657 22 14.771 22 11C22 7.229 22 5.343 20.828 4.172C19.657 3 17.771 3 14 3H10C6.229 3 4.343 3 3.172 4.172C2 5.343 2 7.229 2 11C2 14.771 2 16.657 3.172 17.828C3.825 18.482 4.7 18.771 6 18.898"
+                                            stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M14.0002 19C12.7642 19 11.4022 19.5 10.1592 20.145C8.16124 21.182 7.16224 21.701 6.67024 21.37C6.17824 21.04 6.27124 20.015 6.45824 17.966L6.50024 17.5"
+                                            stroke="black" stroke-width="2" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pe-3 input1 py-2 ps-3 mt_30">
+                                <input class="input2 fs_md fw-normal" type="text" placeholder="Add a comment...">
+                                <a href="#" class="fs_md fw-normal ">Post</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <script>
+        $('.responsive1').slick({
+            dots: true,
+            infinite: true,
+            speed: 600,
+            slidesToShow: 4,
+            autoplay: false,
+            pauseOnHover: false,
+            autoplaySpeed: 150,
+            slidesToScroll: 1,
+            responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                }, {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                    }
+                }, {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                }, {
+                    breakpoint: 400,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "slick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+</body>
+
+</html>

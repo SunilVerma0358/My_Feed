@@ -1,0 +1,343 @@
+@import url('./root.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+    margin: 0 !important;
+    padding: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    box-sizing: border-box;
+}
+
+.ff_poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg_color {
+    background-color: #F8F8F8;
+    ;
+}
+
+.gap_30 {
+    gap: 30px;
+}
+
+.gap_16 {
+    gap: 16px;
+}
+
+.gap_10 {
+    gap: 10px;
+}
+
+.ml_15 {
+    margin-left: 15px !important;
+}
+
+.mr_15 {
+    margin-right: 15px !important;
+}
+
+.px_25 {
+    padding-left: 25px!important;
+    padding-right: 25px !important;
+}
+
+.px_12 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.pb_7 {
+    padding-bottom: 7px;
+}
+
+.py_14 {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.pt_25 {
+    padding-top: 25px !important;
+}
+
+.pt_14 {
+    padding-top: 14px !important;
+}
+
+.pb_14 {
+    padding-bottom: 14px !important;
+}
+
+.pl_0 {
+    padding-left: 0 !important;
+}
+
+.py_40 {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.pl_17 {
+    padding-left: 17px !important;
+}
+
+.mx_auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.bg_white {
+    box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.08);
+}
+
+nav ul li a {
+    color: var(--dark-gray);
+}
+
+nav ul li a:hover {
+    -webkit-text-stroke: 1px black;
+}
+
+ol,
+ul {
+    padding-left: 0 !important;
+}
+
+.input {
+    border-radius: 25.5px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #FFF;
+    padding: 8px 24px !important;
+    outline: unset;
+}
+
+.logo {
+    width: 40px;
+}
+
+
+/*--------------section-----------------*/
+
+.card2 {
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #FFF;
+    width: 130px;
+    height: 130px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+.button2 {
+    border-radius: 25.5px;
+    background: #000;
+    color: #fff;
+    padding: 8px 12px;
+    border: 2px solid transparent;
+    transition: all linear 400ms;
+    font-weight: 400;
+}
+
+.button2:hover {
+    background: rgba(0, 0, 0, 0.10);
+    color: rgba(0, 0, 0, 0.60);
+    font-weight: 600;
+}
+
+.button3 {
+    border-radius: 25.5px;
+    background: rgba(0, 0, 0, 0.10);
+    color: rgba(0, 0, 0, 0.60);
+    padding: 8px 24px;
+    border: 2px solid transparent;
+    transition: all linear 400ms;
+    font-weight: 400;
+}
+
+.button3:hover {
+    background: black;
+    color: white;
+    font-weight: 600;
+}
+
+
+/*---------------------section1--------------*/
+
+.mt_30 {
+    margin-top: 30px !important;
+}
+
+.card1 {
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #fff;
+    padding: 30px !important;
+}
+
+.input1 {
+    border-radius: 25.5px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #FFF;
+    outline: unset;
+    width: 100%;
+}
+
+.input2 {
+    border: 1px solid transparent;
+    background: #FFF;
+    outline: unset;
+    max-width: 100%;
+}
+
+.input2::placeholder {
+    text-overflow: ellipsis !important;
+}
+
+.slick-next:before {
+    color: transparent;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 24px;
+    left: 4px;
+    bottom: 4px;
+    background-color: black;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #ccc;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #ccc;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+/*---------------------section2---------*/
+
+.img_card {
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FAFAFA;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+}
+
+.w_80 {
+    width: 72%;
+}
+
+.gap_31 {
+    gap: 10px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 4;
+    position: fixed;
+    left: 0%;
+    top: 2%;
+}
+
+@media (max-width:992px) {
+    .my_nav {
+        flex-direction: column;
+        position: fixed;
+        top: 0%;
+        width: 25%;
+        height: 15%;
+        left: -100%;
+        padding-left: 0;
+        justify-content: center;
+        background-color: rgb(222, 223, 224);
+        transform: translate(-50% -50%);
+        transition: all 600ms linear;
+        z-index: 2;
+    }
+    input[type="checkbox"]:checked~ul {
+        left: 0;
+    }
+}
+
+@media (min-width:576px) {
+    .logo {
+        width: 64px;
+    }
+    .icon {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        z-index: 4;
+        position: fixed;
+        left: 2%;
+        top: 3%;
+    }
+}
+
+@media (min-width:768px) {
+    .icon {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        z-index: 4;
+        position: fixed;
+        left: 2%;
+        top: 3%;
+    }
+    .button2 {
+        padding: 8px 24px;
+    }
+}
+
+@media (min-width:992px) {
+    .d_lg_none {
+        display: none;
+    }
+    .gap_31 {
+        gap: 30px;
+    }
+}
